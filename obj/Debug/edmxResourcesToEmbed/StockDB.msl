@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StockDBModelStoreContainer" CdmEntityContainer="StockDBEntities">
+    <EntitySetMapping Name="UserAuths">
+      <EntityTypeMapping TypeName="StockDBModel.UserAuth">
+        <MappingFragment StoreEntitySet="UserAuth">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="uname" ColumnName="uname" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
